@@ -1,0 +1,99 @@
+
+
+	<section class="inner-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 sec-title colored text-center">
+					<h2>PRICING</h2>
+					<ul class="breadcumb">
+						<li><a href="?action=main">Home</a></li>
+						<li><i class="fa fa-angle-right"></i></li>
+						<li><span>PRICING</span></li>
+					</ul>
+					<span class="decor"><span class="inner"></span></span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <!-- Pricing Section -->
+    <section class="sec-pdd-90">
+        <div class="container">
+            <div class="row pricing-style2 sm-width5-center">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="pricing-table">
+                        <div class="pricing-header">
+                            <div class="thumb">
+                                <img src="assets/img/resources/pricing-1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="pricing-title">Dental Care</div>
+                        <div class="pricing-feature">
+                            <ul>
+                                <li>6 Days a Week</li>
+                                <li>Dedicated Trainer Alocated</li>
+                                <li>Diet Plan Included</li>
+                                <li>Dedicated Trainer Alocated</li>
+                                <li>Morning & Evening Batches</li>
+                                <li>Free Consultation</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-btn">
+                            <a class="btn thm-btn" href="#">GET DISCOUNT</a>
+                            <span class="btn thm-btn inverse pull-right">25%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="pricing-table itm-mgn-sm-top-50">
+                        <div class="pricing-header">
+                            <div class="thumb">
+                                <img src="assets/img/resources/pricing-2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="pricing-title">Blood Test</div>
+                        <div class="pricing-feature">
+                            <ul>
+                                <li>6 Days a Week</li>
+                                <li>Dedicated Trainer Alocated</li>
+                                <li>Diet Plan Included</li>
+                                <li>Dedicated Trainer Alocated</li>
+                                <li>Morning & Evening Batches</li>
+                                <li>Free Consultation</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-btn">
+                            <a class="btn thm-btn" href="#">GET DISCOUNT</a>
+                            <span class="btn thm-btn inverse pull-right">20%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 col-lg-offset-0 col-md-offset-0 col-sm-offset-3 col-xs-offset-0">
+                    <div class="pricing-table itm-mgn-top-50">
+                        <div class="pricing-header">
+                            <div class="thumb">
+                                <img src="assets/img/resources/pricing-3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="pricing-title">Medical Checkup</div>
+                        <div class="pricing-feature">
+                            <ul>
+                                <li>6 Days a Week</li>
+                                <li>Dedicated Trainer Alocated</li>
+                                <li>Diet Plan Included</li>
+                                <li>Dedicated Trainer Alocated</li>
+                                <li>Morning & Evening Batches</li>
+                                <li>Free Consultation</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-btn">
+                            <a class="btn thm-btn" href="#">GET DISCOUNT</a>
+                            <span class="btn thm-btn inverse pull-right" href="#">35%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<?php   include("view/common/footer.php")?>

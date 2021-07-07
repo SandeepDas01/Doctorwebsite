@@ -1,0 +1,10 @@
+.table-form td
+{
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: top;
+}
+.table-form 
+{
+	width:98%;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page">
+ 
+  <div id="pageone" data-role="main" class="ui-content">
+    
+    <a href="#myPopup" data-rel="popup" data-position-to="window">
+       <img src="img/blog-page/1.jpg" alt="" style="width:200px;"></a>
+        
+    <div data-role="popup" id="myPopup">
+      <p>This is my picture!</p> 
+      <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="img/blog-page/1.jpg" style="width:800px;height:400px;" alt="Skaret View">
+    </div>
+  </div>
+ 
+</div> 
+
+
+
+                <div class="col-md-3 col-sm-6 col-xs-12" data-role="page">
+					<div class="single-team-member ui-content"  id="pageone" data-role="main">
+						<div class="img-box">
+						 <a href="#myPopup" data-rel="popup" data-position-to="window">
+							<img src="img/team/2.jpg" alt=""></a>
+							<div class="overlay">
+								<div class="box">
+									<div class="content">
+										<ul  data-role="popup" id="myPopup">
+											<li><a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close<i class="fa fa-plus"></i></a><img src="img/blog-page/1.jpg" style="width:800px;height:400px;" alt="Skaret View"></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+
+
+
+
+</body>
+</html>
